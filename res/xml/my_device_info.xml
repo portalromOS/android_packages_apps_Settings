@@ -131,10 +131,11 @@
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
 
         <!-- Lineage version -->
+        <!-- android:title= @*lineageos.platform:string/lineage_version-->
         <Preference
             android:key="lineage_os_version"
             android:order="43"
-            android:title="@*lineageos.platform:string/lineage_version"
+            android:title="Portal Rom OS"
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
@@ -209,14 +210,14 @@
             android:title="@string/fcc_equipment_id"
             android:summary="@string/summary_placeholder"/>
 
-        <!-- Build number -->
+        <!-- Build number
         <Preference
             android:key="build_number"
             android:order="53"
             android:title="@string/build_number"
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"
-            settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
+            settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/> -->
     </PreferenceCategory>
 
 </PreferenceScreen>
