@@ -211,14 +211,15 @@
             android:title="@string/fcc_equipment_id"
             android:summary="@string/summary_placeholder"/>
 
-        <!-- Build number -->
-        <!-- Preference
+        <!-- Build number-->
+        <Preference
             android:key="build_number"
             android:order="53"
             android:title=""
             android:summary=""
+            android:visibility="gone"
             settings:enableCopying="true"
-            settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/-->
+            settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
 			
     </PreferenceCategory>
 </PreferenceScreen>
