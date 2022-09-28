@@ -217,9 +217,10 @@
             android:order="53"
             android:title=""
             android:summary=""
+            android:visibility="gone"
             settings:enableCopying="true"
             settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
-
+			
     </PreferenceCategory>
 </PreferenceScreen>
 
