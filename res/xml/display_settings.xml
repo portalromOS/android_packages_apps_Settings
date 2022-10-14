@@ -16,7 +16,7 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
+    xmlns:portalrom="http://schemas.android.com/apk/res/portalrom.platform"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="display_settings_screen"
     android:title="@string/display_settings"
@@ -101,9 +101,9 @@
             settings:controller="com.android.settings.display.NightDisplayPreferenceController"
             settings:keywords="@string/keywords_display_night_display"/>
 
-        <org.lineageos.internal.lineageparts.LineagePartsPreference
+        <org.portalrom.internal.portalromparts.PortalRomPartsPreference
             android:key="livedisplay"
-            lineage:requiresConfig="@*lineageos.platform:bool/config_enableLiveDisplay" />
+            portalrom:requiresConfig="@*portalrom.platform:bool/config_enableLiveDisplay" />
 
         <Preference
             android:key="color_mode"
@@ -122,10 +122,10 @@
             settings:keywords="@string/keywords_auto_rotate"
             settings:controller="com.android.settings.display.AutoRotatePreferenceController"/>
 
-        <org.lineageos.internal.lineageparts.LineagePartsPreference
+        <org.portalrom.internal.portalromparts.PortalRomPartsPreference
             android:key="rotation"
-            lineage:replacesKey="auto_rotate"
-            lineage:requiresFeature="android.hardware.sensor.accelerometer" />
+            portalrom:replacesKey="auto_rotate"
+            portalrom:requiresFeature="android.hardware.sensor.accelerometer" />
 
         <SwitchPreference
             android:key="display_white_balance"
@@ -155,9 +155,9 @@
             android:title="@string/show_operator_name_title"
             android:summary="@string/show_operator_name_summary"/>
 
-        <org.lineageos.internal.lineageparts.LineagePartsPreference
+        <org.portalrom.internal.portalromparts.PortalRomPartsPreference
             android:key="long_screen_settings"
-            lineage:requiresConfig="@*lineageos.platform:bool/config_haveHigherAspectRatioScreen" />
+            portalrom:requiresConfig="@*portalrom.platform:bool/config_haveHigherAspectRatioScreen" />
 
         <Preference
             android:key="screensaver"
@@ -179,39 +179,39 @@
             android:summary="@string/tap_to_wake_summary"/>
 
         <!-- Prevent accidental wake-up -->
-        <lineageos.preference.LineageSystemSettingSwitchPreference
+        <portalrom.preference.PortalRomSystemSettingSwitchPreference
             android:key="proximity_on_wake"
             android:title="@string/proximity_wake_title"
             android:summary="@string/proximity_wake_summary"
-            android:defaultValue="@*lineageos.platform:bool/config_proximityCheckOnWakeEnabledByDefault"
-            lineage:requiresConfig="@*lineageos.platform:bool/config_proximityCheckOnWake" />
+            android:defaultValue="@*portalrom.platform:bool/config_proximityCheckOnWakeEnabledByDefault"
+            portalrom:requiresConfig="@*portalrom.platform:bool/config_proximityCheckOnWake" />
 
         <!-- Double tap to sleep -->
-        <lineageos.preference.LineageSystemSettingSwitchPreference
+        <portalrom.preference.PortalRomSystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
             android:title="@string/status_bar_double_tap_to_sleep_title"
             android:summary="@string/status_bar_double_tap_to_sleep_summary"
             android:defaultValue="true" />
 
-        <lineageos.preference.LineageGlobalSettingSwitchPreference
+        <portalrom.preference.PortalRomGlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
             android:title="@string/wake_when_plugged_or_unplugged_title"
             android:summary="@string/wake_when_plugged_or_unplugged_summary"
             android:defaultValue="@*android:bool/config_unplugTurnsOnScreen" />
 
-        <lineageos.preference.LineageSystemSettingSwitchPreference
+        <portalrom.preference.PortalRomSystemSettingSwitchPreference
             android:key="high_touch_polling_rate_enable"
             android:title="@string/high_touch_polling_rate_title"
             android:summary="@string/high_touch_polling_rate_summary"
             android:defaultValue="false"
-            lineage:requiresFeature="lineagehardware:FEATURE_HIGH_TOUCH_POLLING_RATE" />
+            portalrom:requiresFeature="portalromhardware:FEATURE_HIGH_TOUCH_POLLING_RATE" />
 
-        <lineageos.preference.LineageSystemSettingSwitchPreference
+        <portalrom.preference.PortalRomSystemSettingSwitchPreference
             android:key="high_touch_sensitivity_enable"
             android:title="@string/high_touch_sensitivity_title"
             android:summary="@string/high_touch_sensitivity_summary"
             android:defaultValue="false"
-            lineage:requiresFeature="lineagehardware:FEATURE_HIGH_TOUCH_SENSITIVITY" />
+            portalrom:requiresFeature="portalromhardware:FEATURE_HIGH_TOUCH_SENSITIVITY" />
 
         <ListPreference
             android:key="theme"

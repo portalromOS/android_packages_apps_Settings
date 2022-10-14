@@ -15,7 +15,7 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-                  xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
+                  xmlns:portalrom="http://schemas.android.com/apk/res/portalrom.platform"
                   xmlns:settings="http://schemas.android.com/apk/res-auto"
                   android:title="@string/configure_notification_settings">
 
@@ -165,9 +165,9 @@
             settings:controller="com.android.settings.notification.NotificationAssistantPreferenceController"/>
 
         <!-- Notification lights -->
-        <org.lineageos.internal.lineageparts.LineagePartsPreference
+        <org.portalrom.internal.portalromparts.PortalRomPartsPreference
             android:key="notification_lights"
-            lineage:requiresConfig="@*android:bool/config_intrusiveNotificationLed"
-            lineage:replacesKey="notification_pulse" />
+            portalrom:requiresConfig="@*android:bool/config_intrusiveNotificationLed"
+            portalrom:replacesKey="notification_pulse" />
     </PreferenceCategory>
 </PreferenceScreen>

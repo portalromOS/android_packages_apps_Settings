@@ -17,22 +17,22 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
+    xmlns:portalrom="http://schemas.android.com/apk/res/portalrom.platform"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/gesture_preference_title">
 
-    <org.lineageos.internal.lineageparts.LineagePartsPreference
+    <org.portalrom.internal.portalromparts.portalromPartsPreference
         android:key="touchscreen_gesture_settings"
-        lineage:requiresFeature="lineagehardware:FEATURE_TOUCHSCREEN_GESTURES" />
+        portalrom:requiresFeature="portalromhardware:FEATURE_TOUCHSCREEN_GESTURES" />
 
-    <lineageos.preference.RemotePreference
+    <portalrom.preference.RemotePreference
             android:key="device_touchscreen_gesture_settings"
             android:title="@string/touchscreen_gesture_settings_title"
             android:summary="@string/touchscreen_gesture_settings_summary"
-            lineage:replacesKey="touchscreen_gesture_settings"
-            lineage:requiresFeature="lineagehardware:FEATURE_TOUCHSCREEN_GESTURES">
-        <intent android:action="org.lineageos.settings.device.GESTURE_SETTINGS" />
-    </lineageos.preference.RemotePreference>
+            portalrom:replacesKey="touchscreen_gesture_settings"
+            portalrom:requiresFeature="portalromhardware:FEATURE_TOUCHSCREEN_GESTURES">
+        <intent android:action="org.portalrom.settings.device.GESTURE_SETTINGS" />
+    </portalrom.preference.RemotePreference>
 
     <Preference
         android:key="gesture_assist_input_summary"

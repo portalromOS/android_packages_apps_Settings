@@ -35,7 +35,7 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
 
-import lineageos.hardware.LineageHardwareManager;
+import portalrom.hardware.PortalRomHardwareManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -102,17 +102,17 @@ public class DisplaySettings extends DashboardFragment {
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
-                    LineageHardwareManager hardware = LineageHardwareManager.getInstance(context);
+                    PortalRomHardwareManager hardware = PortalRomHardwareManager.getInstance(context);
                     if (!hardware.isSupported(
-                            LineageHardwareManager.FEATURE_HIGH_TOUCH_POLLING_RATE)) {
+                            PortalRomHardwareManager.FEATURE_HIGH_TOUCH_POLLING_RATE)) {
                         keys.add(KEY_HIGH_TOUCH_POLLING_RATE);
                     }
                     if (!hardware.isSupported(
-                            LineageHardwareManager.FEATURE_HIGH_TOUCH_SENSITIVITY)) {
+                            PortalRomHardwareManager.FEATURE_HIGH_TOUCH_SENSITIVITY)) {
                         keys.add(KEY_HIGH_TOUCH_SENSITIVITY);
                     }
                     if (!context.getResources().getBoolean(
-                            org.lineageos.platform.internal.R.bool.config_proximityCheckOnWake)) {
+                            org.portalrom.platform.internal.R.bool.config_proximityCheckOnWake)) {
                         keys.add(KEY_PROXIMITY_ON_WAKE);
                     }
                     return keys;

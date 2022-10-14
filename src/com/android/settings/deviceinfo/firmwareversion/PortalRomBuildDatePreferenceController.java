@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The LineageOS Project
+ * Copyright (C) 2022 The Portal Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,13 +22,13 @@ import android.os.SystemProperties;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class LineageBuildDatePreferenceController extends BasePreferenceController {
+public class PortalRomBuildDatePreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "LineageBuildDateCtrl";
+    private static final String TAG = "PortalRomBuildDateCtrl";
 
     private static final String KEY_BUILD_DATE_PROP = "ro.build.date";
 
-    public LineageBuildDatePreferenceController(Context context, String key) {
+    public PortalRomBuildDatePreferenceController(Context context, String key) {
         super(context, key);
     }
 

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The LineageOS Project
+ * Copyright (C) 2022 The Portal Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,17 +28,17 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-public class LineageVendorSecurityPatchLevelPreferenceController extends BasePreferenceController {
+public class PortalRomVendorSecurityPatchLevelPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "LineageVendorSecurityPatchCtrl";
+    private static final String TAG = "PortalRomVendorSecurityPatchCtrl";
 
     private static final String KEY_AOSP_VENDOR_SECURITY_PATCH =
             "ro.vendor.build.security_patch";
 
-    private static final String KEY_LINEAGE_VENDOR_SECURITY_PATCH =
-            "ro.lineage.build.vendor_security_patch";
+    private static final String KEY_PORTALROM_VENDOR_SECURITY_PATCH =
+            "ro.portalrom.build.vendor_security_patch";
 
-    public LineageVendorSecurityPatchLevelPreferenceController(Context context, String key) {
+    public PortalRomVendorSecurityPatchLevelPreferenceController(Context context, String key) {
         super(context, key);
     }
 
@@ -52,7 +52,7 @@ public class LineageVendorSecurityPatchLevelPreferenceController extends BasePre
         String patchLevel = SystemProperties.get(KEY_AOSP_VENDOR_SECURITY_PATCH);
 
         if (patchLevel.isEmpty()) {
-            patchLevel = SystemProperties.get(KEY_LINEAGE_VENDOR_SECURITY_PATCH);
+            patchLevel = SystemProperties.get(KEY_PORTALROM_VENDOR_SECURITY_PATCH);
         }
 
         if (!patchLevel.isEmpty()) {

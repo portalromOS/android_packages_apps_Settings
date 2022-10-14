@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012-2013 The CyanogenMod Project
+ * Copyright (C) 2022 The Portal Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -37,7 +37,7 @@ import com.android.settings.utils.SettingsDividerItemDecoration;
 
 import com.google.android.setupdesign.GlifPreferenceLayout;
 
-import org.lineageos.internal.logging.LineageMetricsLogger;
+import org.portalrom.internal.logging.PortalRomMetricsLogger;
 
 public class ChooseLockPatternSize extends SettingsActivity {
 
@@ -136,7 +136,7 @@ public class ChooseLockPatternSize extends SettingsActivity {
 
         @Override
         public int getMetricsCategory() {
-            return LineageMetricsLogger.CHOOSE_LOCK_PATTERN_SIZE;
+            return PortalRomMetricsLogger.CHOOSE_LOCK_PATTERN_SIZE;
         }
     }
 }
