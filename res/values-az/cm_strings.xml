@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2022 The LineageOS Project
+     Copyright (C) 2017-2022 The PortalRom Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -29,7 +29,7 @@
     <string name="backup_transport_title">Nüsxələmə provayderini seç</string>
     <string name="berry_black_theme_title">Təmiz qara</string>
     <string name="berry_black_theme_summary">Tünd tema üçün təmiz qara arxaplan</string>
-    <string name="lineagelicense_title">LineageOS qanuni</string>
+    <string name="lineagelicense_title">PortalRom qanuni</string>
     <string name="status_bar_double_tap_to_sleep_title">Yuxlatmaq üçün toxun</string>
     <string name="status_bar_double_tap_to_sleep_summary">Ekranı söndürmək üçün vəziyyət sətrinə və ya kilid ekranına cüt toxunun</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Planşetinizin ön tərəfindəki barmaq izi sensorunu tapın.</string>

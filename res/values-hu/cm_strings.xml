@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2022 The LineageOS Project
+     Copyright (C) 2017-2022 The PortalRom Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -29,7 +29,7 @@
     <string name="backup_transport_title">Mentési-szolgáltatás kiválasztása</string>
     <string name="berry_black_theme_title">Valódi fekete</string>
     <string name="berry_black_theme_summary">Egy igazán fekete háttér a fekete témákhoz</string>
-    <string name="lineagelicense_title">LineageOS jogi nyilatkozat</string>
+    <string name="lineagelicense_title">PortalRom jogi nyilatkozat</string>
     <string name="status_bar_double_tap_to_sleep_title">Dupla érintésre alvómód</string>
     <string name="status_bar_double_tap_to_sleep_summary">Az állapotsor vagy a záróképernyő dupla érintésére kikapcsol a képernyő</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Táblagépe előlapján találhatja meg az ujjlenyomat-olvasót.</string>
