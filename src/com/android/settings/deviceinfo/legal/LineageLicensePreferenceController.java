@@ -28,7 +28,7 @@ import com.android.settings.core.BasePreferenceController;
 
 public class LineageLicensePreferenceController extends BasePreferenceController {
 
-    private static final String PROPERTY_LINEAGE_LICENSE_URL = "ro.lineagelegal.url";
+    private static final String PROPERTY_PORTALROM_LICENSE_URL = "ro.lineagelegal.url";
 
     public LineageLicensePreferenceController(Context context, String key) {
         super(context, key);
@@ -58,6 +58,6 @@ public class LineageLicensePreferenceController extends BasePreferenceController
 
     private Intent getIntent() {
         return new Intent(Intent.ACTION_VIEW,
-                Uri.parse(SystemProperties.get(PROPERTY_LINEAGE_LICENSE_URL)));
+                Uri.parse(SystemProperties.get(PROPERTY_PORTALROM_LICENSE_URL)));
     }
 }
