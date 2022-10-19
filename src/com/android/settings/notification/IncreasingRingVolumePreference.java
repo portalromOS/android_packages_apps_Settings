@@ -38,7 +38,7 @@ import androidx.preference.PreferenceViewHolder;
 
 import com.android.settings.R;
 
-import lineageos.providers.LineageSettings;
+import portalrom.providers.LineageSettings;
 
 public class IncreasingRingVolumePreference extends Preference
         implements Handler.Callback, SeekBar.OnSeekBarChangeListener {

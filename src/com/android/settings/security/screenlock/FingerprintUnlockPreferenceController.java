@@ -24,7 +24,7 @@ import androidx.preference.TwoStatePreference;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
-import lineageos.providers.LineageSettings;
+import portalrom.providers.LineageSettings;
 
 public class FingerprintUnlockPreferenceController extends AbstractPreferenceController
         implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {

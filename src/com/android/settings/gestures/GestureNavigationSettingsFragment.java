@@ -33,7 +33,7 @@ import com.android.settingslib.search.SearchIndexable;
 
 import static com.android.systemui.shared.recents.utilities.Utilities.isTablet;
 
-import lineageos.providers.LineageSettings;
+import portalrom.providers.LineageSettings;
 
 /**
  * A fragment to include all the settings related to Gesture Navigation mode.

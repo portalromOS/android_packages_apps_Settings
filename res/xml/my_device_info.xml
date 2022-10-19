@@ -132,7 +132,7 @@
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
 
         <!-- Lineage version -->
-        <!-- android:title= @*lineageos.platform:string/lineage_version-->
+        <!-- android:title= @*portalrom.platform:string/lineage_version-->
         <Preference
             android:key="lineage_os_version"
             android:order="43"

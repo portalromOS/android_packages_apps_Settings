@@ -54,7 +54,7 @@ import com.android.settingslib.widget.RadioButtonPreference;
 
 import static com.android.systemui.shared.recents.utilities.Utilities.isTablet;
 
-import lineageos.providers.LineageSettings;
+import portalrom.providers.LineageSettings;
 
 import java.util.ArrayList;
 import java.util.List;
