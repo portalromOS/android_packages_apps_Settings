@@ -30,20 +30,20 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Lineage version -->
+    <!-- PortalRom version -->
     <!--Preference
-        android:key="lineage_version"
-        android:title="@*portalrom.platform:string/lineage_version"
+        android:key="portalrom_version"
+        android:title="@*portalrom.platform:string/portalrom_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/-->
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.PortalRomVersionDetailPreferenceController"/-->
 
     <Preference
-        android:key="lineage_version"
+        android:key="portalrom_version"
         android:title="Portal Rom Version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.PortalRomVersionDetailPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
@@ -55,10 +55,10 @@
     <!-- Vendor security patch -->
     <Preference
         android:key="vendor_security_key"
-        android:title="@*portalrom.platform:string/lineage_vendor_security_patch"
+        android:title="@*portalrom.platform:string/portalrom_vendor_security_patch"
         android:selectable="false"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVendorSecurityPatchLevelPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.PortalRomVendorSecurityPatchLevelPreferenceController"/>
 
     <!-- Mainline module version -->
     <!--
@@ -95,7 +95,7 @@
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageBuildDatePreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.PortalRomBuildDatePreferenceController"/>
 
     <!-- Build -->
     <Preference

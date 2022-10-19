@@ -17,7 +17,7 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:lineage="http://schemas.android.com/apk/res/portalrom.platform"
+    xmlns:portalrom="http://schemas.android.com/apk/res/portalrom.platform"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/language_settings">
 
@@ -78,12 +78,12 @@
             android:fragment="com.android.settings.tts.TextToSpeechSettings"
             settings:searchable="false"/>
 
-        <portalrom.preference.LineageSecureSettingSwitchPreference
+        <portalrom.preference.PortalRomSecureSettingSwitchPreference
             android:key="feature_touch_hovering"
             android:title="@string/touchscreen_hovering_title"
             android:summary="@string/touchscreen_hovering_summary"
             android:defaultValue="false"
-            lineage:requiresFeature="lineagehardware:FEATURE_TOUCH_HOVERING" />
+            portalrom:requiresFeature="portalromhardware:FEATURE_TOUCH_HOVERING" />
 
     </PreferenceCategory>
 
