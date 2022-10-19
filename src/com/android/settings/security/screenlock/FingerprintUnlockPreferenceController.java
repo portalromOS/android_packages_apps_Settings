@@ -24,7 +24,7 @@ import androidx.preference.TwoStatePreference;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
-import portalrom.providers.LineageSettings;
+import portalrom.providers.PortalRomSettings;
 
 public class FingerprintUnlockPreferenceController extends AbstractPreferenceController
         implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
@@ -36,9 +36,9 @@ public class FingerprintUnlockPreferenceController extends AbstractPreferenceCon
     }
 
     private int getFingerprintSettings() {
-        return LineageSettings.System.getIntForUser(
+        return PortalRomSettings.System.getIntForUser(
                 mContext.getContentResolver(),
-                LineageSettings.System.FINGERPRINT_WAKE_UNLOCK, 1,
+                PortalRomSettings.System.FINGERPRINT_WAKE_UNLOCK, 1,
                 UserHandle.USER_CURRENT);
     }
 
@@ -62,8 +62,8 @@ public class FingerprintUnlockPreferenceController extends AbstractPreferenceCon
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        LineageSettings.System.putIntForUser(mContext.getContentResolver(),
-                LineageSettings.System.FINGERPRINT_WAKE_UNLOCK,
+        PortalRomSettings.System.putIntForUser(mContext.getContentResolver(),
+                PortalRomSettings.System.FINGERPRINT_WAKE_UNLOCK,
                 (Boolean) newValue ? 1 : 0, UserHandle.USER_CURRENT);
         return true;
     }

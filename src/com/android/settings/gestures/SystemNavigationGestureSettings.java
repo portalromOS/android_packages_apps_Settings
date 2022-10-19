@@ -54,7 +54,7 @@ import com.android.settingslib.widget.RadioButtonPreference;
 
 import static com.android.systemui.shared.recents.utilities.Utilities.isTablet;
 
-import portalrom.providers.LineageSettings;
+import portalrom.providers.PortalRomSettings;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -170,8 +170,8 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
         final Context c = getContext();
         List<CandidateInfoExtra> candidates = new ArrayList<>();
 
-        boolean isTaskbarEnabled = LineageSettings.System.getInt(getContext().getContentResolver(),
-                LineageSettings.System.ENABLE_TASKBAR, isTablet(getContext()) ? 1 : 0) == 1;
+        boolean isTaskbarEnabled = PortalRomSettings.System.getInt(getContext().getContentResolver(),
+                PortalRomSettings.System.ENABLE_TASKBAR, isTablet(getContext()) ? 1 : 0) == 1;
 
         if (SystemNavigationPreferenceController.isOverlayPackageAvailable(c,
                 NAV_BAR_MODE_GESTURAL_OVERLAY)) {

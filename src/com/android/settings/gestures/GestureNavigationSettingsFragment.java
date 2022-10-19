@@ -33,7 +33,7 @@ import com.android.settingslib.search.SearchIndexable;
 
 import static com.android.systemui.shared.recents.utilities.Utilities.isTablet;
 
-import portalrom.providers.LineageSettings;
+import portalrom.providers.PortalRomSettings;
 
 /**
  * A fragment to include all the settings related to Gesture Navigation mode.
@@ -82,8 +82,8 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         initSeekBarPreference(LEFT_EDGE_SEEKBAR_KEY);
         initSeekBarPreference(RIGHT_EDGE_SEEKBAR_KEY);
 
-        boolean isTaskbarEnabled = LineageSettings.System.getInt(getContext().getContentResolver(),
-                LineageSettings.System.ENABLE_TASKBAR, isTablet(getContext()) ? 1 : 0) == 1;
+        boolean isTaskbarEnabled = PortalRomSettings.System.getInt(getContext().getContentResolver(),
+                PortalRomSettings.System.ENABLE_TASKBAR, isTablet(getContext()) ? 1 : 0) == 1;
         if (isTaskbarEnabled) {
             getPreferenceScreen().removePreference(
                     getPreferenceScreen().findPreference(NAVIGATION_BAR_HINT_KEY));

@@ -26,11 +26,11 @@ import androidx.preference.PreferenceScreen;
 
 import com.android.settings.core.BasePreferenceController;
 
-public class LineageLicensePreferenceController extends BasePreferenceController {
+public class PortalRomLicensePreferenceController extends BasePreferenceController {
 
     private static final String PROPERTY_PORTALROM_LICENSE_URL = "ro.lineagelegal.url";
 
-    public LineageLicensePreferenceController(Context context, String key) {
+    public PortalRomLicensePreferenceController(Context context, String key) {
         super(context, key);
     }
 

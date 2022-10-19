@@ -26,7 +26,7 @@ import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
-import portalrom.providers.LineageSettings;
+import portalrom.providers.PortalRomSettings;
 
 public class PinScramblePreferenceController extends AbstractPreferenceController
         implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
@@ -55,9 +55,9 @@ public class PinScramblePreferenceController extends AbstractPreferenceControlle
 
     @Override
     public void updateState(Preference preference) {
-        ((TwoStatePreference) preference).setChecked(LineageSettings.System.getIntForUser(
+        ((TwoStatePreference) preference).setChecked(PortalRomSettings.System.getIntForUser(
                 mContext.getContentResolver(),
-                LineageSettings.System.LOCKSCREEN_PIN_SCRAMBLE_LAYOUT,
+                PortalRomSettings.System.LOCKSCREEN_PIN_SCRAMBLE_LAYOUT,
                 0, UserHandle.USER_CURRENT) == 1);
     }
 
@@ -70,9 +70,9 @@ public class PinScramblePreferenceController extends AbstractPreferenceControlle
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        LineageSettings.System.putIntForUser(
+        PortalRomSettings.System.putIntForUser(
                 mContext.getContentResolver(),
-                LineageSettings.System.LOCKSCREEN_PIN_SCRAMBLE_LAYOUT,
+                PortalRomSettings.System.LOCKSCREEN_PIN_SCRAMBLE_LAYOUT,
                 (Boolean) newValue ? 1 : 0, UserHandle.USER_CURRENT);
         return true;
     }

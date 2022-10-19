@@ -18,7 +18,7 @@ package com.android.settings.display;
 
 import android.content.Context;
 
-import portalrom.providers.LineageSettings;
+import portalrom.providers.PortalRomSettings;
 
 import com.android.settings.R;
 import com.android.settings.core.TogglePreferenceController;
@@ -31,14 +31,14 @@ public class AutoBrightnessOneShotPreferenceController extends TogglePreferenceC
 
     @Override
     public boolean isChecked() {
-        return LineageSettings.System.getInt(mContext.getContentResolver(),
-                LineageSettings.System.AUTO_BRIGHTNESS_ONE_SHOT, 0) == 1;
+        return PortalRomSettings.System.getInt(mContext.getContentResolver(),
+                PortalRomSettings.System.AUTO_BRIGHTNESS_ONE_SHOT, 0) == 1;
     }
 
     @Override
     public boolean setChecked(boolean isChecked) {
-        LineageSettings.System.putInt(mContext.getContentResolver(),
-                LineageSettings.System.AUTO_BRIGHTNESS_ONE_SHOT, isChecked ? 1 : 0);
+        PortalRomSettings.System.putInt(mContext.getContentResolver(),
+                PortalRomSettings.System.AUTO_BRIGHTNESS_ONE_SHOT, isChecked ? 1 : 0);
         return true;
     }
 
