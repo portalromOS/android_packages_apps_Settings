@@ -28,7 +28,7 @@ import com.android.settings.core.BasePreferenceController;
 
 public class PortalRomLicensePreferenceController extends BasePreferenceController {
 
-    private static final String PROPERTY_PORTALROM_LICENSE_URL = "ro.lineagelegal.url";
+    private static final String PROPERTY_PORTALROM_LICENSE_URL = "ro.portalromlegal.url";
 
     public PortalRomLicensePreferenceController(Context context, String key) {
         super(context, key);
