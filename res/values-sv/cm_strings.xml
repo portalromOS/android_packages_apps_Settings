@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2022 The PortalRom Project
+     Copyright (C) 2022 The Portal Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@
     </plurals>
     <string name="show_dev_on_cm">Du har aktiverat utvecklingsinställningar!</string>
     <string name="show_dev_already_cm">Det behövs inte, du har redan aktiverat utvecklingsinställningar.</string>
-    <string name="lineagelicense_title">PortalRom Juridik</string>
+    <string name="portalromlicense_title">PortalRom Juridik</string>
     <string name="status_bar_double_tap_to_sleep_title">Dubbeltryck för att släcka skärmen</string>
     <string name="increasing_ring_volume_option_title">Ökande ljudvolym</string>
     <string name="increasing_ring_min_volume_title">Startvolym</string>

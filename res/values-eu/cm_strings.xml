@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2022 The PortalRom Project
+     Copyright (C) 2022 The Portal Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@
     </plurals>
     <string name="show_dev_on_cm">Garatzaileen aukerak gaitu dituzu!</string>
     <string name="show_dev_already_cm">Ez da behar, aurretik gaitu dituzu garatzaileek aukerak.</string>
-    <string name="lineagelicense_title">PortalRom lizentzia</string>
+    <string name="portalromlicense_title">PortalRom lizentzia</string>
     <string name="status_bar_double_tap_to_sleep_title">Sakatu lokartzeko</string>
     <string name="status_bar_double_tap_to_sleep_summary">Sakatu birritan egoera-barra edo blokeo-pantaila pantaila itzaltzeko</string>
     <string name="increasing_ring_volume_option_title">Dei doinu gorakorra</string>

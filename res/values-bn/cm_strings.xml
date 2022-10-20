@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2022 The PortalRom Project
+     Copyright (C) 2022 The Portal Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@
     <string name="advanced_keyboard_settings_title">অ্যাডভান্সড সেটিংস</string>
     <string name="adb_enable_root">রুট করা ডিবাগিং</string>
     <string name="adb_enable_summary_root">রুট করা অবস্থায় অ্যান্ড্রয়েড ডিবাগিং করার অনুমতি দিন</string>
-    <string name="lineagelicense_title">সায়ানোজেনমড বৈধতা</string>
+    <string name="portalromlicense_title">সায়ানোজেনমড বৈধতা</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">ফিঙ্গারপ্রিন্ট সেন্সরটি আপনার ট্যাবলেটের সামনের দিকে আছে</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">ফিঙ্গারপ্রিন্ট সেন্সরটি আপনার ডিভাইসের সামনের দিকে আছে</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="default">ফিঙ্গারপ্রিন্ট সেন্সরটি আপনার ফোনের সামনের দিকে আছে</string>

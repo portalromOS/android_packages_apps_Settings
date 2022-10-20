@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2022 The PortalRom Project
+     Copyright (C) 2022 The Portal Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@
     <string name="backup_transport_title">Chọn nơi lưu trữ dữ liệu sao lưu</string>
     <string name="berry_black_theme_title">Đen tuyền</string>
     <string name="berry_black_theme_summary">Nền đen tuyền cho chủ đề tối</string>
-    <string name="lineagelicense_title">Bộ phận pháp chế của PortalRom</string>
+    <string name="portalromlicense_title">Bộ phận pháp chế của PortalRom</string>
     <string name="status_bar_double_tap_to_sleep_title">Chạm để tắt màn hình</string>
     <string name="status_bar_double_tap_to_sleep_summary">Chạm hai lần vào thanh trạng thái hoặc màn hình khoá để tắt màn hình</string>
     <string name="increasing_ring_volume_option_title">Tăng âm lượng chuông</string>

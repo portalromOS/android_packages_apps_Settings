@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2022 The PortalRom Project
+     Copyright (C) 2022 The Portal Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@
     </plurals>
     <string name="show_dev_on_cm">ଆପଣ ଉନ୍ନତି ସେଟିଂସ୍‍ ସଷମ କରିଛନ୍ତି!</string>
     <string name="show_dev_already_cm">ଆବଶ୍ୟକ ନାହିଁ, ଆପଣ ଆଗରୁ ଉନ୍ନତି ସେଟିଂସମୂହ ସଷମ କରିସାରିଛନ୍ତି।</string>
-    <string name="lineagelicense_title">ସିଆନୋଜେନ୍‍ମୋଡ୍‍ ଲିଗାଲ୍‍</string>
+    <string name="portalromlicense_title">ପୋର୍ଟାଲ୍ ଆଇନଗତ ଅଟେ |</string>
     <string name="increasing_ring_volume_option_title">ରିଙ୍ଗ୍‍ ଭୋଲ୍ୟୁମ୍‍ ବଢାଯାଉଛି</string>
     <string name="increasing_ring_min_volume_title">ଭୋଲ୍ୟୁମ୍‍ ଆରଭ କରନ୍ତୁ</string>
     <string name="increasing_ring_ramp_up_time_title">ସମୟ ରାମ୍ପ୍‍-ଅପ୍‍ କରନ୍ତୁ</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2022 The PortalRom Project
+     Copyright (C) 2022 The Portal Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -42,7 +42,7 @@
     <string name="berry_black_theme_summary">Pure black background for dark theme</string>
 
     <!-- Device Info screen. PortalRom legal. -->
-    <string name="lineagelicense_title">PortalRom legal</string>
+    <string name="portalromlicense_title">PortalRom legal</string>
 
     <!-- Double tap to sleep on status bar or lockscreen -->
     <string name="status_bar_double_tap_to_sleep_title">Tap to sleep</string>
@@ -112,7 +112,7 @@
     <string name="high_touch_sensitivity_title">High touch sensitivity</string>
     <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
 
-    <!-- Hotspot lineage extras -->
+    <!-- Hotspot portalrom extras -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 

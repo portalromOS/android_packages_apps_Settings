@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2022 The PortalRom Project
+     Copyright (C) 2022 The Portal Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@ Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étapes de l\'a
     <string name="backup_transport_title">Sélectionner un fournisseur de sauvegarde</string>
     <string name="berry_black_theme_title">Noir pur</string>
     <string name="berry_black_theme_summary">Fond noir pur pour le thème sombre</string>
-    <string name="lineagelicense_title">Infos légales PortalRom</string>
+    <string name="portalromlicense_title">Infos légales PortalRom</string>
     <string name="status_bar_double_tap_to_sleep_title">Appuyer pour mettre en veille</string>
     <string name="status_bar_double_tap_to_sleep_summary">Appuyer deux fois sur la barre d\'état ou sur l\'écran de verrouillage pour éteindre l\'écran</string>
     <string name="increasing_ring_volume_option_title">Sonnerie progressive</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2022 The PortalRom Project
+     Copyright (C) 2022 The Portal Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="show_dev_on_cm">Jūs įgalinote kūrėjo parinktys!</string>
     <string name="show_dev_already_cm">Nereikia, jūs jau įgalinote kūrėjo parinktys.</string>
-    <string name="lineagelicense_title">Teisinė „PortalRom“ informacija</string>
+    <string name="portalromlicense_title">Teisinė „PortalRom“ informacija</string>
     <string name="increasing_ring_volume_option_title">Didėjantis skambėjimo garsumas</string>
     <string name="increasing_ring_min_volume_title">Pradinis garsumas</string>
     <string name="increasing_ring_ramp_up_time_title">Didėjimo laikas</string>
